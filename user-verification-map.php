@@ -114,7 +114,7 @@ function uvmp_process_verification_form() {
             // Send email to the user after form submission
             $to = $email; // User's email address
             $subject = 'Form Submission Received';
-            $message = 'Your form has been submitted successfully to our Digitrans Hub. Our team will review your submission and verify it shortly. Thank you for participating to Digitrans Erasmus+ Project.';
+            $message = 'Your form has been submitted successfully ';
             wp_mail($to, $subject, $message);
 
             // Redirect after successful form submission
